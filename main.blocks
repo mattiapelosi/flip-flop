@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="*rL+x*Ag]+(x.-F?eQt^">acceso</variable></variables><block type="pxt-on-start" id="eMs7Xm?/k$J*eB#I(Fv+" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id=".bfKE!]kg+]puO$c5$zR"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="$mM7?jwrK]ScZ$W-wBU9" x="217" y="42"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="controls_if" id="PuUW`z^[jk}l7VjtfC-h"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="uX=F64()S/KzKa)jPdS/"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="Jo%9iH=kp[XU)jeT5~hl"><field name="VAR" id="*rL+x*Ag]+(x.-F?eQt^">acceso</field></block></value><statement name="DO0"><block type="device_show_leds" id="fn^0]cPTt@-4Gq~H,y-K"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="J~3!;hO=)CM:A#GbE+,?"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><next><block type="variables_set" id="@aIeBC6L-{7z[x2?.8g^"><field name="VAR" id="*rL+x*Ag]+(x.-F?eQt^">acceso</field><value name="VALUE"><shadow type="math_number" id="oY?Lqo:1S=/IBS*LyiDJ"><field name="NUM">0</field></shadow><block type="logic_negate" id="==i5?+:w.qTyD?$Mko!g"><value name="BOOL"><block type="variables_get" id="[I!cn|1aPM!H+TY.1-(n"><field name="VAR" id="*rL+x*Ag]+(x.-F?eQt^">acceso</field></block></value></block></value></block></next></block></statement></block></xml>
